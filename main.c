@@ -2,5 +2,7 @@
 
 int main () 
 {
-return 0;
+    asdf;
+    asdf;
+    return 0;
 }
