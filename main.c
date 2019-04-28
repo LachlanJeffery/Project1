@@ -52,7 +52,7 @@ int main ()
         newText2[i2]= (plainText2[i2] - 65 - key2) % 26 + 65; // create a loop to manipulate each ASCII letter (to decrypt) in plainText to then produce newText2 ie the decrypted text 
         i2++;
         }
-        for(n2=0; n2<i2-1; n2++) 
+        for(n2=0; n2<i2-1; n2++) // Create a loop to print each associated ASCII letter in character form
             printf("%c" ,newText2[n2]);
         
         return 0;
